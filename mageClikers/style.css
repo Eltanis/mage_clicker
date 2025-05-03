@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'MagicSchoolOne';
+  src: url('./font/MagicSchoolOne.ttf') format('truetype');
+}
+
+body{
+	text-align: center;
+	background-color : rgb(101, 84, 251);
+	font-family: MagicSchoolOne
+}
+
+#mage{
+	margin: 0 ;
+	width: 260px;
+	cursor: pointer;
+}
+
+#mage:active {
+  transform: scale(0.95);
+}
+
+h1{
+	font-size: 40px;
+	color: white;
+}
+
+p{
+	font-size: 40px;
+	color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
